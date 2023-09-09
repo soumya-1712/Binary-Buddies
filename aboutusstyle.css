@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    /* background-color: #f7f7f7; */
+    background-image: url('https://cutewallpaper.org/23/aesthetic-city-wallpaper-phone/1080421152.jpg');
+    /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+    background-size: cover;
+    /* This ensures the image covers the entire viewport */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    background-attachment: scroll;
+
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 50px 0;
+    background-image: url('https://cutewallpaper.org/23/aesthetic-city-wallpaper-phone/1080421152.jpg'); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+      background-size: cover; /* This ensures the image covers the entire viewport */
+      background-repeat: no-repeat; /* Prevent the image from repeating */
+      background-attachment: scroll;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #353636;
+    /* Change to your desired background color */
+    padding: 10px;
+    /* Add some padding for spacing */
+    border-radius: 50px;
+    /* Add rounded corners to the box */
+    text-align: center;
+    /* Center the text within the box */
+    font-family: 'Pacifico', cursive;
+    margin: 50px;
+    margin-top: 10px;
+}
+
+.section-heading {
+    font-size: 36px;
+    color: #fdfcfc;
+    margin-bottom: 30px;
+}
+
+.section-content {
+    font-size: 18px;
+    color: #faf7f7;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.section-heading {
+    font-family: "Lucida Handwriting", Cursive;
+
+}
+
+.body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.two-color-text {
+    background: linear-gradient(90deg, #FF5733, #FF5733, #000000, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    /* Dark background color */
+    color: #ffffff;
+    /* Light text color */
+}
+
+header {
+    background-color: #101010;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+}
+
+
+.logo a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
