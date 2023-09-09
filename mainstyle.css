@@ -759,7 +759,7 @@ a:hover div{
 }
 
 .container .card3:after {
-    content: "Mall";
+    content: "Restaurant";
     position: absolute;
     top: 30%;
     left: -20%;
