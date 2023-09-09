@@ -1,0 +1,294 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+  background-image: url('https://cutewallpaper.org/23/aesthetic-city-wallpaper-phone/1080421152.jpg'); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+    background-size: cover; /* This ensures the image covers the entire viewport */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: scroll;
+
+}
+
+.two-color-text {
+    background: linear-gradient(90deg, #FF5733, #FF5733, #000000, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+header {
+    background-color: #101010;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+
+
+.logo a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('https://cutewallpaper.org/23/aesthetic-city-wallpaper-phone/1080421152.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-family: "Lucida Handwriting", Cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #be1e1e;
+    
+    border: #ff5722;
+}
+
+.hero p {
+    font-family: "Lucida Handwriting", Cursive;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #eb1404;
+}
+
+.btn {
+    background-color: #ff5722;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #f44336;
+}
+
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.service-icon img {
+    max-width: 300px;
+    margin: 50px ;
+    border-radius: 40%;
+}
+
+
+
+
+
+/* -------------------------------------------- FAQ DROP DOWN----------- */
+
+/* .accordion-content {
+    display: none;
+}
+
+Style the button and icon
+.accordion-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #f5f5f5; /* Add your desired background color */
+  /*  border-bottom: 1px solid #ddd; 
+}
+
+.accordion-title {
+    flex-grow: 1;
+    margin: 0;
+}
+
+Add an arrow icon for indicating the state (expanded/collapsed)
+.icon::before {
+    content: '\25B6'; 
+    transition: transform 0.3s ease;
+}
+
+Rotate the icon when expanded
+.accordion-button[aria-expanded="true"] .icon::before {
+    transform: rotate(90deg);
+}
+
+
+
+.accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+   */
+
+
+
+
+   
+.accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .accordion .accordion-item button[aria-expanded=true] {
+    border-bottom: 1px solid #03b5d2;
+  }
+  .accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .accordion button:hover, .accordion button:focus {
+    cursor: pointer;
+    color: #03b5d2;
+  }
+  .accordion button:hover::after, .accordion button:focus::after {
+    cursor: pointer;
+    color: #03b5d2;
+    border: 1px solid #03b5d2;
+  }
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  .accordion button[aria-expanded=true] {
+    color: #03b5d2;
+  }
+  .accordion button[aria-expanded=true] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded=true] + .accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
