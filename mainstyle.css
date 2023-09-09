@@ -1,0 +1,891 @@
+body {
+    margin: 0;
+    padding: 0;
+	background-image: url('https://cutewallpaper.org/23/aesthetic-city-wallpaper-phone/1080421152.jpg');
+}
+
+.two-color-text {
+    background: linear-gradient(90deg, #FF5733, #FF5733, #000000, #000000);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+header {
+    background-color: #101010;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+
+
+.logo a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('https://cutewallpaper.org/23/aesthetic-city-wallpaper-phone/1080421152.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-family: "Lucida Handwriting", Cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #be1e1e;
+
+    border: #ff5722;
+}
+
+.hero p {
+    font-family: "Lucida Handwriting", Cursive;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #eb1404;
+}
+
+.btn {
+    background-color: #ff5722;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #f44336;
+}
+
+.services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.service-icon img {
+    max-width: 300px;
+    margin: 50px ;
+    border-radius: 40%;
+}
+
+
+
+
+
+
+.city-selector,
+.category-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.city-selector select,
+.category-selector a {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: rgb(18, 16, 24);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./NY.jpeg); 
+    background-size: cover;
+    z-index: -1;
+}
+
+
+.city-selector select {
+    max-width: 100%;
+}
+
+.city-selector select:hover,
+.category-selector a:hover {
+    background-color: #0056b3;
+}
+
+.about-us-button {
+    padding: 5px 10px;
+    border: 1px solid #000; /* Add a black border */
+    border-radius: none;
+    background-color: #efefef;
+    color: rgb(55, 55, 55);
+    font-size: 16px;
+    cursor: pointer;
+}
+.about-us-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+
+
+
+
+.buttons {
+	display: flex;
+	gap: 10px;
+	margin-left: 1250px;
+	/* margin-top: 100px; */
+  
+  }
+
+
+
+.wrap{
+	position: relative;
+	width: 80vmin;
+	height: 80vmin;
+	background: inherit;
+	transform: scale(0.2) translateZ(0px);
+	opacity: 0;
+	transition: transform .5s, opacity .5s;
+	margin: 0 auto;
+}
+
+.hover-area{
+	position: absolute;
+	left: 0; top: 0;
+	width: 47.5%;height: 47.5%;
+	overflow: hidden;
+	transform: scale(.5) translateZ(0px);
+	background: #585247;
+}
+.hover-area div{
+	height: 100%;
+	background-size: cover;
+	opacity: .5;
+	transition: opacity .5s;
+	border-radius: inherit;
+
+}
+.hover-area:nth-child(1)
+{
+	border-radius: 40vmin 0 0 0;
+	transform-origin: 110% 110%;
+	transition: transform .4s .15s;
+}
+.hover-area:nth-child(1) div{
+	background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSltWlL08PbwvvvoBhTYMccwTqmTTT0w6vh8w&usqp=CAU');
+}
+
+.hover-area:nth-child(2)
+{
+	border-radius: 0 40vmin 0 0;
+	left: 52.5%;
+	transform-origin: -10% 110%;
+	transition: transform .4s .2s;
+}
+.hover-area:nth-child(2) div{
+	background-image:url('https://img.staticmb.com/mbcontent/images/uploads/2022/11/investment-destination-of-vadodara.jpg');
+}
+
+
+.hover-area:nth-child(3)
+{
+	border-radius: 0 0 0 40vmin;
+	top: 52.5%;
+	transform-origin: 110% -10%;
+	transition: transform .4s .25s;
+}
+.hover-area:nth-child(3) div{
+	background-image:url('https://static.toiimg.com/thumb/imgsize-23456,msid-90331368,width-600,resizemode-4/90331368.jpg');
+}
+.hover-area:nth-child(4)
+{
+	border-radius: 0 0 40vmin 0;
+	top: 52.5%; left: 52.5%;
+	transform-origin: -10% -10%;
+	transition: transform .4s .3s;
+}
+.hover-area:nth-child(4) div{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYF9EY2hoWn8LwSwKw4lkCxtPwvenhGoABWQ&usqp=CAU');
+}
+
+
+.hover-area:nth-child(5)
+{
+	border-radius: 50vmin;
+	width: 55%; height: 55%;
+	top: 22.5%; left: 22.5%;
+	transform-origin: -10% -10%;
+	transform: scale(1);
+	box-shadow: 0 0 0 5vmin #E3DfD2;
+
+}
+.hover-area:nth-child(5) div{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuGZ-PAYEn5KqLutCMVeK2UjnpJ89gzHg_WejjU_8AxTFCWqNLK2rxtX07FNfCJ5EwCFo&usqp=CAU');
+
+}
+
+/*-----------------*/
+
+
+
+
+
+
+
+span span{
+	position: absolute;
+	width: 60%;
+	height: 3px;
+	background: #ACA696;
+	left: 20%;
+	top: 50%;
+	border-radius: 0;
+}
+span span:after, span span:before{
+	content: "";
+	position: absolute;
+	left: 0;
+	top: -1.5vmin;
+	width: 100%;
+	height: 100%;
+	background: inherit;
+}
+span span:after{
+	top: 1.5vmin;
+}
+span:hover + .wrap, .wrap:hover{
+	transform: scale(0.8) translateZ(0px);
+	opacity: 1;
+}
+span:hover + .wrap a, .wrap:hover a{
+transform: scale(1) translateZ(0px);
+}
+
+
+
+a:hover div{
+	opacity: 1;
+	transform: translateZ(0px);
+}
+
+
+
+
+.highlight-box {
+  
+	box-shadow: 0 0 0 5px rgb(34, 60, 67);
+  
+	background-color: #dde0e0; /* Change to your desired background color */
+	padding: 10px; /* Add some padding for spacing */
+	border-radius: 50px; /* Add rounded corners to the box */
+	text-align: center; /* Center the text within the box */
+	font-family: 'Pacifico', cursive;
+	margin: 50px;
+	margin-right: 450px;
+	margin-left: 450px;
+	margin-top: 10px;
+  }
+
+/*-----------------------------------------------------*/
+.container {  
+	position: relative;  
+  }  
+  .container .card {  
+	position: relative;  
+	width: 320px;  
+	height: 450px;  
+	background: #232323;  
+	border-radius: 20px;  
+	overflow: hidden;  
+    margin-left: -200px;
+  }  
+  .container .card:before {  
+	content: "";  
+	position: absolute;  
+	top: 0;  
+	left: 0;  
+	width: 100%;  
+	height: 100%;  
+	
+	clip-path: circle(150px at 80% 20%);  
+	transition: 0.5s ease-in-out;  
+  }  
+  .container .card:hover:before {  
+	clip-path: circle(300px at 80% -20%);  
+  }  
+  .container .card:after {  
+	content: "Cafe";  
+	position: absolute;  
+	top: 30%;  
+	left: -20%;  
+	font-size: 12em;  
+	font-weight: 800;  
+	font-style: italic;  
+	color: rgba(255, 255, 255, 0.04);  
+  }  
+  .container .card .imgBx {  
+	position: absolute;  
+	top: 10%;  
+	width: 20%;  
+	height: 30%;  
+	transition: .5s;  
+	margin-left: 25px;
+  }  
+  .container .card:hover .imgBx {  
+	top: 0%;  
+	/* transform: translateY(-25%);   */
+	/* bug */  
+  }  
+  .container .card .imgBx img {  
+	position: absolute;  
+	/* top: 50%;   */
+	/* left: 50%;   */
+	/* transform: translate(-50%, -50%) rotate(20deg);   */
+	width: 270px;  
+	border-radius: 30px;
+  }  
+  
+
+
+
+  .container .card .contentBx {  
+	position: absolute;  
+	bottom: 0;  
+	width: 100%;  
+	height: 100px;  
+	text-align: center;  
+	transition: 1s;  
+	z-index: 90; 
+		/* background: #232323;   */
+ 
+  }  
+  .container .card:hover .contentBx {  
+	height: 210px;  
+	/* background: #232323;   */
+
+  }  
+  .container .card .contentBx h2 {  
+	position: relative;  
+	font-weight: 600;  
+	letter-spacing: 1px;  
+	color: #fff;  
+	background: transparent; 
+
+  }  
+  .container .card .contentBx .size,  
+  .container .card .contentBx .color {  
+	display: flex;  
+	justify-content: center;  
+	align-items: center;  
+	padding: 8px 20px;  
+	transition: .5s;  
+	opacity: 0;  
+	visibility: hidden;  
+  }  
+  .container .card:hover .contentBx .size {  
+	opacity: 1;  
+	visibility: visible;  
+	transition-delay: .5s;  
+  }  
+  .container .card:hover .contentBx .color {  
+	opacity: 1;  
+	visibility: visible;  
+	transition-delay: .6s;  
+	
+  }  
+  .container .card .contentBx .size h3,  
+  .container .card .contentBx .color h3 {  
+	background:transparent;  
+
+	color: white;  
+	font-weight: 300;  
+	font-size: 14px;  
+	text-transform: uppercase;  
+	letter-spacing: 2px;  
+	margin-right: 10px;  
+  }  
+  .container .card .contentBx .size span {  
+	width: 26px;  
+	height: 26px;  
+	text-align: center;  
+	line-height: 26px;  
+	font-size: 14px;  
+	display: inline-block;  
+	color: #111;  
+	background: #fff;  
+	margin: 0 5px;  
+	transition: .5s;  
+	color: #111;  
+	border-radius: 4px;  
+	cursor: pointer;  
+  }  
+  .container .card .contentBx .size span:hover { /* other bug */  
+	background: #B90000;  
+  }  
+  .container .card .contentBx .color span {  
+	width: 20px;  
+	height: 20px;  
+	background: #ff0;  
+	border-radius: 50%;  
+	margin: 0 5px;  
+	cursor: pointer;  
+  }  
+  .container .card .contentBx .color span:nth-child(2) {  
+	 background: #1BBFE9;  
+  }  
+  .container .card .contentBx .color span:nth-child(3) {  
+	 background: #1B2FE9;  
+  }  
+  .container .card .contentBx .color span:nth-child(4) {  
+	 background: #080481;  
+  }  
+  .container .card .contentBx a {  
+	display: inline-block;  
+	padding: 10px 20px;  
+	background: #fff;  
+	border-radius: 4px;  
+	margin-top: 10px;  
+	text-decoration: none;  
+	font-weight: 600;  
+	color: #111;  
+	opacity: 0;  
+	transform: translateY(50px);  
+	transition: .5s;  
+  }  
+  .container .card:hover .contentBx a {  
+	opacity: 1;  
+	transform: translateY(0px);  
+	transition-delay: .7s;  
+  }   
+
+
+
+  /*---------------*/
+
+
+  .container .card2 {
+    position: absolute;
+   /* 50% minus half of the card width (320px) plus 500px spacing */
+    top: 10%; /* Align with the top of the container */
+    width: 320px;  
+    height: 450px;  
+    background: #232323;  
+    border-radius: 20px;  
+    overflow: hidden;  
+	margin-left: 200px;
+}
+
+.container .card2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #1BBFE9;   */
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.container .card2:hover:before {
+    clip-path: circle(300px at 80% -20%);
+}
+
+.container .card2:after {
+    content: "Mall";
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(218, 214, 214, 0.04);
+}
+
+.container .card2 .imgBx {
+    position: absolute;
+    top: 10%;
+    width: 20%;
+    height: 30%;
+    transition: .5s;
+    margin-left: 25px;
+}
+
+.container .card2:hover .imgBx {
+    top: 0%;
+}
+
+.container .card2 .imgBx img {
+    position: absolute;
+    width: 270px;
+	border-radius: 30px;
+}
+
+
+.container .card2 .contentBx {  
+	position: absolute;  
+	bottom: 0;  
+	width: 100%;  
+	height: 100px;  
+	text-align: center;  
+	transition: 1s;  
+	z-index: 90;  
+  }  
+  .container .card2:hover .contentBx {  
+	height: 210px;  
+  }  
+  .container .card2 .contentBx h2 {  
+	position: relative;  
+	font-weight: 600;  
+	letter-spacing: 1px;  
+	color: #fff;  
+  }  
+  .container .card2 .contentBx .size,  
+  .container .card2 .contentBx .color {  
+	display: flex;  
+	justify-content: center;  
+	align-items: center;  
+	padding: 8px 20px;  
+	transition: .5s;  
+	opacity: 0;  
+	visibility: hidden;  
+  }  
+  .container .card2:hover .contentBx .size {  
+	opacity: 1;  
+	visibility: visible;  
+	transition-delay: .5s;  
+  }  
+  .container .card2:hover .contentBx .color {  
+	opacity: 1;  
+	visibility: visible;  
+	transition-delay: .6s;  
+  }  
+  .container .card2 .contentBx .size h3,  
+  .container .card2 .contentBx .color h3 {  
+	color: white;  
+	font-weight: 300;  
+	font-size: 14px;  
+	text-transform: uppercase;  
+	letter-spacing: 2px;  
+	margin-right: 10px;  
+  }  
+  .container .card2 .contentBx .size span {  
+	width: 26px;  
+	height: 26px;  
+	text-align: center;  
+	line-height: 26px;  
+	font-size: 14px;  
+	display: inline-block;  
+	color: #111;  
+	background: #fff;  
+	margin: 0 5px;  
+	transition: .5s;  
+	color: #111;  
+	border-radius: 4px;  
+	cursor: pointer;  
+  }  
+  .container .card2 .contentBx .size span:hover { /* other bug */  
+	background: #B90000;  
+  }  
+  .container .card2 .contentBx .color span {  
+	width: 20px;  
+	height: 20px;  
+	background: #ff0;  
+	border-radius: 50%;  
+	margin: 0 5px;  
+	cursor: pointer;  
+  }  
+  .container .card2 .contentBx .color span:nth-child(2) {  
+	 background: #1BBFE9;  
+  }  
+  .container .card2 .contentBx .color span:nth-child(3) {  
+	 background: #1B2FE9;  
+  }  
+  .container .card2 .contentBx .color span:nth-child(4) {  
+	 background: #080481;  
+  }  
+  .container .card2 .contentBx a {  
+	display: inline-block;  
+	padding: 10px 20px;  
+	background: #fff;  
+	border-radius: 4px;  
+	margin-top: 10px;  
+	text-decoration: none;  
+	font-weight: 600;  
+	color: #111;  
+	opacity: 0;  
+	transform: translateY(50px);  
+	transition: .5s;  
+  }  
+  .container .card2:hover .contentBx a {  
+	opacity: 1;  
+	transform: translateY(0px);  
+	transition-delay: .7s;  
+  }   
+
+
+
+
+
+  /*------------------*/
+
+
+
+
+
+  .container .card2 {
+    position: absolute;
+   /* 50% minus half of the card width (320px) plus 500px spacing */
+    top: 10%; /* Align with the top of the container */
+    width: 320px;  
+    height: 450px;  
+    background: #232323;  
+    border-radius: 20px;  
+    overflow: hidden;  
+	margin-right:20px;
+}
+/* .container .card3 {
+    position: absolute;
+    top: 10%; 
+    width: 320px;  
+    height: 450px;  
+    background: #232323;  
+    border-radius: 20px;  
+    overflow: hidden;  
+	margin-right:200px;
+}
+ */
+ .container .card3 {
+    position: absolute;
+    /* Adjust the top property to align it with card2 */
+    top: 10%; /* Align with the top of the container */
+
+    /* Adjust the left property to position it to the right of card2 */
+    left: calc(320px + 350px + 20px); /* Assuming 20px spacing between card2 and card3 */
+
+    width: 320px;
+    height: 450px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container .card3:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.container .card3:hover:before {
+    clip-path: circle(300px at 80% -20%);
+}
+
+.container .card3:after {
+    content: "Mall";
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(218, 214, 214, 0.04);
+}
+
+.container .card3 .imgBx {
+    position: absolute;
+    top: 10%;
+    width: 20%;
+    height: 30%;
+    transition: .5s;
+}
+
+.container .card3:hover .imgBx {
+    top: 0%;
+}
+
+.container .card3 .imgBx img {
+    position: absolute;
+    width: 270px;
+	margin-left: 20px;
+	border-radius: 30px;
+}
+
+
+.container .card3 .contentBx {  
+	position: absolute;  
+	bottom: 0;  
+	width: 100%;  
+	height: 100px;  
+	text-align: center;  
+	transition: 1s;  
+	z-index: 90;  
+  }  
+  .container .card3:hover .contentBx {  
+	height: 210px;  
+  }  
+  .container .card3 .contentBx h2 {  
+	position: relative;  
+	font-weight: 600;  
+	letter-spacing: 1px;  
+	color: #fff;  
+  }  
+  .container .card3 .contentBx .size,  
+  .container .card3 .contentBx .color {  
+	display: flex;  
+	justify-content: center;  
+	align-items: center;  
+	padding: 8px 20px;  
+	transition: .5s;  
+	opacity: 0;  
+	visibility: hidden;  
+  }  
+  .container .card3:hover .contentBx .size {  
+	opacity: 1;  
+	visibility: visible;  
+	transition-delay: .5s;  
+  }  
+  .container .card3:hover .contentBx .color {  
+	opacity: 1;  
+	visibility: visible;  
+	transition-delay: .6s;  
+  }  
+  .container .card3 .contentBx .size h3,  
+  .container .card3 .contentBx .color h3 {  
+	color: white;  
+	font-weight: 300;  
+	font-size: 14px;  
+	text-transform: uppercase;  
+	letter-spacing: 2px;  
+	margin-right: 10px;  
+  }  
+  .container .card3 .contentBx .size span {  
+	width: 26px;  
+	height: 26px;  
+	text-align: center;  
+	line-height: 26px;  
+	font-size: 14px;  
+	display: inline-block;  
+	color: #111;  
+	background: #fff;  
+	margin: 0 5px;  
+	transition: .5s;  
+	color: #111;  
+	border-radius: 4px;  
+	cursor: pointer;  
+  }  
+  .container .card3 .contentBx .size span:hover {  
+	background: #B90000;  
+  }  
+  .container .card3 .contentBx .color span {  
+	width: 20px;  
+	height: 20px;  
+	background: #ff0;  
+	border-radius: 50%;  
+	margin: 0 5px;  
+	cursor: pointer;  
+  }  
+  .container .card3 .contentBx .color span:nth-child(2) {  
+	 background: #1BBFE9;  
+  }  
+  .container .card3 .contentBx .color span:nth-child(3) {  
+	 background: #1B2FE9;  
+  }  
+  .container .card3 .contentBx .color span:nth-child(4) {  
+	 background: #080481;  
+  }  
+  .container .card3 .contentBx a {  
+	display: inline-block;  
+	padding: 10px 20px;  
+	background: #fff;  
+	border-radius: 4px;  
+	margin-top: 10px;  
+	text-decoration: none;  
+	font-weight: 600;  
+	color: #111;  
+	opacity: 0;  
+	transform: translateY(50px);  
+	transition: .5s;  
+  }  
+  .container .card3:hover .contentBx a {  
+	opacity: 1;  
+	transform: translateY(0px);  
+	transition-delay: .7s;  
+  }

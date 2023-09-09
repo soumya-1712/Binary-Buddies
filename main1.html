@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Explorer - Categories</title>
+    <link rel="stylesheet" type="text/css" href="mainstyle.css">
+    <link rel="script" href="mainscript.js">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">CityPulse Explorer</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1><span class="two-color-text">Welcome to CityPulse Explorer</span></h1>
+            <p><span class="two-color-text"><strong>Unearth the Soul of Every City!</strong></span></p>
+            <a href="#Cards-sec" class="btn">Start Exploring</a>
+        </div>
+    </section>
+    <section id="Cards-sec">
+
+        <div class="container">
+
+            <div class="card">
+                <div class="imgBx">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgjsVXUlfksSlPXRxuwaq5G2BWeQRBvTsa2oFVefXWgyDrMLa0WanIdF-NGrKAqjw2eBU&usqp=CAU"
+                        alt="cafe" width="200px ">
+                </div>
+                <a href="cafevadodara.html">
+                    <div class="contentBx">
+                        <h2>café</h2>
+                        <div class="size">
+                            <h3>Where Every Sip is a Hug for Your Soul ☕</h3>
+                        </div>
+                        <div class="color">
+                            <h3>Click to Explore </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <a href="mallsvadodara.html">
+                <div class="card2">
+                    <div class="imgBx">
+                        <img src="https://st.depositphotos.com/2075661/4800/i/950/depositphotos_48003625-stock-photo-people-shopping-in-luxurious-shopping.jpg"
+                            alt="malls" width="200px ">
+                    </div>
+                    <div class="contentBx">
+                        <h2>Malls</h2>
+                        <div class="size">
+                            <h3>Where Shopping Dreams Come to Life! 🛍</h3>
+                        </div>
+                        <div class="color">
+                            <h3>Click to Explore </h3>
+                        </div>
+
+                    </div>
+                </div>
+            </a>
+            <div class="card3">
+                <div class="imgBx">
+                    <img src="https://st.depositphotos.com/2075661/4800/i/950/depositphotos_48003625-stock-photo-people-shopping-in-luxurious-shopping.jpg"
+                        alt="cafe" width="200px ">
+                </div>
+                <a href="restaurantsvadodara.html">
+                    <div class="contentBx">
+                        <h2>Restaurants</h2>
+                        <div class="size">
+                            <h3>Savor the Flavor! 🍽️</h3>
+                        </div>
+                        <div class="color">
+                            <h3>Click to Explore </h3>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
+
+</html>
